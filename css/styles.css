@@ -1,0 +1,463 @@
+@charset "utf-8";
+/* CSS Document */
+/*======================================================================
+	Project Name: DD Sourcing Ltd
+	Creator     : Rahat Chowdhury
+	E-mail		: rahatmch@gmail.com.com
+	Date        : 2017-11-5.
+========================================================================*/
+body{ 
+	margin:0; 
+	padding:0; 
+	font-size:13px;
+	font-family:"Trebuchet MS";
+	background:#090909;
+	color:#000000;
+}
+
+p{ margin:0; padding:0;}
+
+img{ border:none;}
+a{ text-decoration:none;}
+.clear{ clear:both;}
+
+.img {filter: url(filters.svg#grayscale); /* Firefox 3.5+ */ filter: gray; /* IE6-9 */ -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */}
+.img:hover { filter: none; -webkit-filter: none;}
+
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('../fonts/opensans-semibold.eot');
+    src: url('../fonts/opensans-semibold.eot') format('embedded-opentype'),
+         url('../fonts/opensans-semibold.woff2') format('woff2'),
+         url('../fonts/opensans-semibold.woff') format('woff'),
+         url('../fonts/opensans-semibold.ttf') format('truetype'),
+         url('../fonts/opensans-semibold.svg#OpenSansSemibold') format('svg');
+}
+@font-face {
+    font-family: 'HeaveneticaCond6MedSH';
+    src: url('../fonts/heaveneticacond6_medsh_2.eot');
+    src: url('../fonts/heaveneticacond6_medsh_2.eot') format('embedded-opentype'),
+         url('../fonts/heaveneticacond6_medsh_2.woff') format('woff'),
+         url('../fonts/heaveneticacond6_medsh_2.ttf') format('truetype'),
+         url('../fonts/heaveneticacond6_medsh_2.svg#HeaveneticaCond6MedSH') format('svg');
+}
+@font-face {
+    font-family: 'OxygenBold';
+    src: url('../fonts/oxygen-bold.eot');
+    src: url('../fonts/oxygen-bold.eot') format('embedded-opentype'),
+         url('../fonts/oxygen-bold.woff2') format('woff2'),
+         url('../fonts/oxygen-bold.woff') format('woff'),
+         url('../fonts/oxygen-bold.ttf') format('truetype'),
+         url('../fonts/oxygen-bold.svg#OxygenBold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../fonts/opensans-light.eot');
+    src: url('../fonts/opensans-light.eot') format('embedded-opentype'),
+         url('../fonts/opensans-light.woff2') format('woff2'),
+         url('../fonts/opensans-light.woff') format('woff'),
+         url('../fonts/opensans-light.ttf') format('truetype'),
+         url('../fonts/opensans-light.svg#OpenSansLight') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/opensans-regular.eot');
+    src: url('../fonts/opensans-regular.eot') format('embedded-opentype'),
+         url('../fonts/opensans-regular.woff2') format('woff2'),
+         url('../fonts/opensans-regular.woff') format('woff'),
+         url('../fonts/opensans-regular.ttf') format('truetype'),
+         url('../fonts/opensans-regular.svg#OpenSansRegular') format('svg');
+}
+/*===================================================================================================*/
+#body_wrapper_top{
+	/*-webkit-box-shadow: 0px 1px 6px 0px rgba(50, 50, 50, 1);
+	-moz-box-shadow:0px 1px 6px 0px rgba(50, 50, 50, 1);
+	box-shadow:0px 1px 6px 0px rgba(50, 50, 50, 1);*/
+	overflow:hidden;
+	margin-top:0px;
+	background:#090909;
+}
+#body_wrapper{
+	/*-webkit-box-shadow: 0px 1px 6px 0px rgba(50, 50, 50, 1);
+	-moz-box-shadow:0px 1px 6px 0px rgba(50, 50, 50, 1);
+	box-shadow:0px 1px 6px 0px rgba(50, 50, 50, 1);*/
+	overflow:hidden;
+	margin-top:0px;
+	background:#090909;
+	padding-bottom:12px;
+}
+/*---------------------*/
+.header{
+	min-height:105px;
+	}
+.logo { padding-top:5px; }
+.logo h1 a:hover{
+	text-decoration:none;
+	}
+	
+.moto {padding:10px 10px; font-family:"Courier New", Courier, monospace; font-size:18px; font-weight:bold; color:#797979; border:thin solid #404040; background:#303030;}
+/*-- Partner Part Ends Here --*/
+.gallery {font-size:13px; font-family:Verdana, Arial, Helvetica, sans-serif; color:#fff; margin:10px; line-height:18px;}
+/*--------------------*/
+.banner{overflow:hidden;margin:0px 15px 0;}
+/*--------------------*/
+.mainpage{margin:0px 15px 15px 15px;padding-left:10px;padding-right:10px;}
+.welcome{ margin-top:0px;}
+.doors{ width:100%; height:auto; min-height:270px;}
+.door_img{width:100%; }
+.doors h3{font-size:20px; font-weight:bold; font-family:"Trebuchet MS";color:#fff; padding:20px 25px 0px 25px;}
+.doors p{font-size:14px;  font-family:"Trebuchet MS"; color:#a1a1a1; padding:0px 25px 25px 25px;}
+.welcome_text{	}
+.welcome_text h3{font-size:18px;font-family:HeaveneticaCond6MedSH;line-height:32px;color:#156bcd;}
+.welcome_text p{font-size:13px;	font-family:OpenSansLight;	line-height:25px;	color:#272727;	padding-top:5px;	text-align:justify;}
+#about2 {background:#fff;}
+.about h3{font-size:20px;font-family:HeaveneticaCond6MedSH;color:#fff; padding:10px;background:#333333;}
+.about h4{font-size:20px;padding:10px;background:#333333;}
+.about h2{font-size:18px;font-family:HeaveneticaCond6MedSH;color:#fff; }
+
+
+.about ul{padding:0px 20px 20px 20px;}
+.about ul li {margin: 5px;font-size:15px; font-family:Verdana, Arial, Helvetica, sans-serif; line-height:24px; color:#fff; }
+
+.banner_export {background-image:url(../images/export.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
+.banner_commitment {background-image:url(../images/commitment.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
+.banner_whoweare {background-image:url(../images/who-we-are.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
+.banner_whyus{background-image:url(../images/why-us.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
+.banner_services{background-image:url(../images/services.jpg); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
+.title_left{font-size:30px;font-family:HeaveneticaCond6MedSH;color:#1ca6e4; }
+.about ul{padding:0px 20px 20px 20px;}
+.about ul li {margin: 5px;font-size:15px; font-family:Verdana, Arial, Helvetica, sans-serif; line-height:24px; color:#fff; }
+.title_center{font-size:30px;font-family:HeaveneticaCond6MedSH;color:#1ca6e4; text-align:center;}
+.title_text{font-size:18px; font-family:Verdana, Arial, Helvetica, sans-serif; color:#fff; text-align:center;}
+
+
+.short {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#fff;}
+.short a {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#fff; }
+.short a:hover {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#a9a9a9; text-decoration:none;}
+
+
+
+
+.about_title{font-size:30px;font-family:HeaveneticaCond6MedSH;color:#1ca6e4; }
+.search{font-size:14px;font-family:HeaveneticaCond6MedSH;color:#fff; height:22px;background:#333333;}
+.about p{font-size:15px; font-family:Verdana, Arial, Helvetica, sans-serif; line-height:24px; color:#fff; padding:0px 10px; text-align:justify;}
+
+
+.contact p{font-size:14px; font-family:"Century Gothic"; line-height:20px; color:#fff; padding:0px 10px; text-align:justify;}
+/*.contact p a{font-size:14px; font-family:"Century Gothic"; line-height:20px; color:#fff; text-align:justify;}
+.contact p a:hover{font-size:14px; font-family:"Century Gothic"; line-height:20px; color:#1ca6e4; text-align:justify;}*/
+
+.contact_link{font-size:16px; font-family:"Century Gothic"; line-height:20px; color:#fff; padding:0px 10px; text-align:justify;}
+.contact_link a{font-size:16px; font-family:"Century Gothic"; line-height:20px; color:#fff; text-align:justify;}
+.contact_link a:hover{font-size:16px; font-family:"Century Gothic"; line-height:20px; color:#1ca6e4; text-align:justify;}
+
+
+.contact_s{font-size:12px; font-family:"Century Gothic"; line-height:20px; color:#707070; font-style:italic;}
+.contact_t{font-size:18px; line-height:40px; color:#1ca6e4; font-weight:bold; font-family:"Century Gothic"; font-weight:bold;}
+.contact_tel{font-size:18px; line-height:40px; color:#fff; font-weight:bold; font-family:"Century Gothic"; font-weight:bold;}
+.contact_phone{font-size:18px; line-height:40px; color:#fff; font-weight:bold; font-family:"Century Gothic"; font-weight:bold;}
+.contact h3{font-size:30px; font-family:"Century Gothic"; color:#fff; padding:10px; background:#333333; font-weight:bold; text-align:center;}
+.anyquestion { font-family:Candara; font-size:32px; color:#1ca6e4; font-weight:bold;}
+.anyquestion2 { font-family:"Bookman Old Style"; font-size:14px; color:#fff;}
+
+
+
+.page_box_strenth h3{font-family:"Trebuchet MS"; font-size:15px;font-weight:bold;line-height:18px;color:#00b0f5;}
+.strenth_text{
+	width:100%;
+	overflow:hidden;
+	}
+ul.social{
+	padding:0;
+}
+ul.social li{
+	display: inline-block;
+}
+ul.social li i{
+	width:37px;
+	height:37px;
+	background:url(../images/social-icons.png)no-repeat;
+	display: inline-block;
+	cursor:pointer;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+ul.social li i.tw{
+	background-position:-2px 0px;
+}
+ul.social li i.ga{
+	background-position:-48px 0px;
+}
+ul.social li i.fa{
+	background-position:-95px 0px;
+}
+ul.social li i.sk{
+	background-position:-142px 0px;
+}
+ul.social li i.tw:hover{
+	background-position:-2px -40px;
+}
+ul.social li i.ga:hover{
+	background-position:-48px -40px;
+}
+ul.social li i.fa:hover{
+	background-position:-95px -40px;
+}
+ul.social li i.sk:hover{
+	background-position:-142px -40px;
+}
+
+
+.strenth_text p{font-size:13px;	font-family:"Trebuchet MS";	line-height:22px;color:#272727;}
+.strenth_text2 p{font-size:11px; font-family:"Trebuchet MS";	line-height:22px;color:#272727;}
+.strenth_text p a{font-size:13px; font-family:"Trebuchet MS";	line-height:22px;color:#272727;}
+.strenth_text p a:hover{font-size:13px;	font-family:"Trebuchet MS";	line-height:22px;color:#000;}
+
+/*==============  Pagination   ==============*/
+div.pagination {padding: 2px;margin: 2px; font-size:12px;}
+div.pagination a {padding: 2px 5px 2px 5px;margin: 2px;border: 1px solid #a0ce4e;text-decoration: none;color:#333333; font-size:12px;}
+div.pagination a:hover, div.pagination a:active {border: 1px solid #a0ce4e;	color: #000; font-size:12px;}
+div.pagination span.current {padding:2px 5px 2px 5px; margin:2px; border:1px solid #82ae32; font-size:12px; font-weight:bold; background-color:#a0ce4e;color: #FFF;}
+div.pagination span.disabled {	padding: 2px 5px 2px 5px;margin: 2px;border: 1px solid #EEE;color: #DDD;font-size:12px;}
+/*=============   Footer    =============*/
+
+/*---------------------------------*/
+#footer{
+	background:#FFFFFF;
+	overflow:hidden;
+	border-top:2px solid #264f97;
+	}
+.footer_inner{
+	padding:0 10px;
+	}
+/*============================*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.logo h1 a{
+	padding:0 0 0 25px;
+	}
+.header_right{
+	margin:0;
+	padding:0 0 0 35px;
+	}
+.header_text{
+	padding-top:10px;
+	}
+.header_text02{
+	padding-top:10px;
+	}
+.social_link{
+	}
+.welcome_text{
+	margin-top:10px;
+	}
+.page_box_win{
+	}
+.page_box_strenth{
+	margin-top:15px;
+	}
+.page_box_video{
+	margin-top:15px;
+	}
+.page_box_loca{
+	margin-top:15px;
+	}
+.footer_about{
+	margin-top:15px;
+	}
+.footer_window{
+	margin-top:15px;
+	}
+.footer_contact{
+	margin-top:15px;
+	}
+.footer_right{
+	margin:15px 0 0 0;
+	padding-bottom:15px;
+	}
+.footer_right h3{
+	float:none;
+	text-align:left;
+	}
+.footer_right p{
+	float:none;
+	text-align:left;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+.footer_contact{
+	margin-top:20px;
+	}
+.header_text{
+	margin-right:25px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+.new_div{
+	border:1px solid red;
+	}
+	
+	.white{
+	color:#FFFFFF;
+	}
+	.white a{
+	color:#FFFFFF;
+	}
+	.white a:hover{
+	color:#FFFFFF;
+	}
+	
+.career {
+	font-family:OpenSansLight;
+	font-size:12px;
+	background: white; 
+    border: 1px solid #DDD; 
+    border-radius: 3px; 
+    box-shadow: 0 0 5px #DDD inset;
+	padding:5px;
+    color: #666; 
+    outline: none; 
+    height:30px; 
+    width: 320px;
+}
+.career_file {
+	font-family:OpenSansLight;
+	font-size:12px;
+	background: white; 
+    border: 1px solid #DDD; 
+    border-radius: 3px; 
+    box-shadow: 0 0 5px #DDD inset;
+	padding:5px;
+    color: #666; 
+    outline: none; 
+    height:30px; 
+    width: 180px;
+}
+.datafield {
+	font-family:OpenSansLight;
+	font-size:12px;
+	color:#999;
+	background-color:#f6f6f6;
+	width:350px;
+	height:125px;
+	border:solid thin #CCC;
+	padding:3px;
+}
+
+.datafield2 {
+	font-family:OpenSansLight;
+	font-size:12px;
+	background: white; 
+    border: 1px solid #DDD; 
+    border-radius: 3px; 
+    box-shadow: 0 0 5px #DDD inset;
+	padding:5px;
+    color: #666; 
+    outline: none; 
+    height:125px; 
+    width: 400px;
+}
+.upload {
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	border-bottom-color:#333;
+	border:1px solid #ec3b0a;
+	background-color:#ec3b0a;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	color:#FFFFFF;
+	font-family:"Trebuchet MS";
+	font-weight:bold;
+	font-size:12px;
+	padding:5px 10px 5px 10px;
+}
+
+.careerz {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background: white; 
+    border: 1px solid #DDD; 
+    border-radius: 3px; 
+    box-shadow: 0 0 5px #DDD inset;
+	padding:5px;
+    color: #666; 
+    outline: none; 
+    height:30px; 
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
